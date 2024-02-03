@@ -19,7 +19,6 @@
 // let message = `КОРИСТУВАЧ ${name} ВИКОРИСТОВУЄ  ${mail} ПОЧТУ І ${phone} ТЕЛЕФОН`;
 // console.log(message);
 
-
 // ЗАДАЧА 3
 // ПОТРІБНО ЗАПИТАТИ У МАГАЗИНІ ЦІНУ ЗА КОЖЕН ОКРЕМИЙ ТОВАР,ТА ВИВЕСТИ ПОВІДОМЛЕННЯМ   ЗАГАЛЬНУ ЦІНУ ТОВАРУ
 
@@ -78,5 +77,18 @@
 // else {
 //     console.log("Дані не валідні")
 // }
-
-
+// ЗАДАЧА 7
+// НАПИШІТЬ ПРОГРАМУ, ЯКА ПРОВІРЯЄ ЛОГІН І ПАРОЛЬ, І ВИВОДИТЬ ПРИВІТАННЯ - ЯКЩО ВСЕ ДОБРЕ,
+//  АБО ВИДАЄ ПОМИЛКУ, ЩО НЕ ВІРНИЙ ЛОГІН
+// const login = "User";
+// const password = "User12345";
+// const newLogin = prompt("Введіть логін");
+// const newPassword = prompt("Введіть пароль");
+// // if (login === newLogin && password === newPassword) {
+// //   console.log("Hello!");
+// // } else {
+// //   console.log("Error");
+// // }
+// let result =
+//   login === newLogin && password === newPassword ? "Hello!" : "Error";
+// console.log(result);
