@@ -18,3 +18,16 @@
 // const phone = prompt("Введіть свій телефон");
 // let message = `КОРИСТУВАЧ ${name} ВИКОРИСТОВУЄ  ${mail} ПОЧТУ І ${phone} ТЕЛЕФОН`;
 // console.log(message);
+
+
+// ЗАДАЧА 3
+// ПОТРІБНО ЗАПИТАТИ У МАГАЗИНІ ЦІНУ ЗА КОЖЕН ОКРЕМИЙ ТОВАР,ТА ВИВЕСТИ ПОВІДОМЛЕННЯМ   ЗАГАЛЬНУ ЦІНУ ТОВАРУ
+
+// const priceApple = Number(prompt("Введіть ціну яблук"));
+// const pricePeach = +prompt("Введіть ціну персиків");
+// const priceOrange = +prompt("Введіть ціну апельсинів");
+
+// let totalPrice = priceApple + pricePeach + priceOrange;
+// let message = `Загальна ціна: ${totalPrice}`
+// alert(message);
+
