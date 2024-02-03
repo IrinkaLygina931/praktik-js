@@ -92,3 +92,35 @@
 // let result =
 //   login === newLogin && password === newPassword ? "Hello!" : "Error";
 // console.log(result);
+
+
+// ЗАДАЧА 8
+// НАПИШІТЬ ПРОГРАМУ , ЯКА БУДЕ ЗАПИТУВАТИ У КОРИСТУВАЧА ПЕРІОД ПІДПИСКИ НА СЕРВІС ТА ПОКАЗУВАТИМЕ ЦІНУ ПІДПИСКИ(ВИКОРИСТАЙ IF..ELSE, ТА ПЕРЕПИШИ НА SWITCH)
+// ЯКЩО ДЕНЬ - ціна 1.99
+// ЯУЩО НЕДІЛЯ - ціна 5.99
+// ЯКЩО МІСЯЦЬ - ціна 10.99
+// ЯКЩО РІК - ціна 100.99
+
+
+const period = prompt("Введіть період підписки").toLowerCase();
+
+switch (period) {
+    case "день":
+        console.log("1.99");
+        break;
+    case "неділя":
+        console.log("5.99");
+        break;
+    case "місяць":
+        console.log("10.99");
+        break;
+    case "рік":
+        console.log("100.99");
+        break;
+    default:
+        console.log("Error");
+        break;
+    
+}
+
+// console.log(period)
