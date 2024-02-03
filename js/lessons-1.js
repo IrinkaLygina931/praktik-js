@@ -3,12 +3,18 @@
 // "ДОБРОГО ДНЯ,МЕНЕ ЗВАТИ ГАЛИНА, МЕНІ
 // 35 РОКІВ, Я ВИВЧАЮ JAVASCRIPT"
 
+// const name = "Галина";
+// const age = 35;
+// const hobby = "js";
+// const message = `ДОБРОГО ДНЯ,МЕНЕ ЗВАТИ ${name}, МЕНІ
+// ${age} РОКІВ, Я ВИВЧАЮ ${hobby}`;
 
-const name = "Галина";
-const age = 35;
-const hobby = "js";
-const message = `ДОБРОГО ДНЯ,МЕНЕ ЗВАТИ ${name}, МЕНІ
-${age} РОКІВ, Я ВИВЧАЮ ${hobby}`;
-
-console.log(message);
-
+// console.log(message);
+// ЗАДАЧА 2
+// ЗАПИТАТИ У КОРИСТУВАЧА ІМЯ, ПОЧТУ , ТЕЛЕФОН, І ПОКАЗАТИ У КОНСОЛІ "КОРИСТУВАЧ __ ВИКОРИСТОВУЄ  __ ПОЧТУ І __ ТЕЛЕФОН"
+// const name = prompt("Введіть своє імя");
+// // console.log(name);
+// const mail = prompt("Введіть свою почту");
+// const phone = prompt("Введіть свій телефон");
+// let message = `КОРИСТУВАЧ ${name} ВИКОРИСТОВУЄ  ${mail} ПОЧТУ І ${phone} ТЕЛЕФОН`;
+// console.log(message);
