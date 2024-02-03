@@ -102,25 +102,38 @@
 // ЯКЩО РІК - ціна 100.99
 
 
-const period = prompt("Введіть період підписки").toLowerCase();
+// const period = prompt("Введіть період підписки").toLowerCase();
 
-switch (period) {
-    case "день":
-        console.log("1.99");
-        break;
-    case "неділя":
-        console.log("5.99");
-        break;
-    case "місяць":
-        console.log("10.99");
-        break;
-    case "рік":
-        console.log("100.99");
-        break;
-    default:
-        console.log("Error");
-        break;
+// switch (period) {
+//     case "день":
+//         console.log("1.99");
+//         break;
+//     case "неділя":
+//         console.log("5.99");
+//         break;
+//     case "місяць":
+//         console.log("10.99");
+//         break;
+//     case "рік":
+//         console.log("100.99");
+//         break;
+//     default:
+//         console.log("Error");
+//         break;
     
-}
+// }
 
 // console.log(period)
+// ЗАДАЧА 9 
+// НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10
+
+// const min = 1;
+// const max = 50;
+// // for (let i = 1; i <= max; i++){
+// //     console.log(i)
+// // } 
+// for (let i = 1; i <= max; i++){
+//     if (i %10===0){
+//         console.log(i)
+//     }
+// }
