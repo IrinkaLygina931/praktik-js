@@ -68,17 +68,41 @@
 // Напишіть ф-цію calculateAverage() яка приймає довільну кількість аргументів і повертає їх середнє значення
 // .Всі аргументи будуть тільки числовими
 
-function calculateAverage(...args) {
-  let middleNumber = 0;
-  for (let arg of args) {
-    middleNumber += arg;
-  }
+// function calculateAverage(...args) {
+//   let middleNumber = 0;
+//   for (let arg of args) {
+//     middleNumber += arg;
+//   }
 
-  return (middleNumber / args.length).toFixed(1);
-}
+//   return (middleNumber / args.length).toFixed(1);
+// }
 
-// console.log(1, 2, 3.76);
+// // console.log(1, 2, 3.76);
 
-console.log(calculateAverage(1, 2, 3, 4, 9.4)); // 2.5
-console.log(calculateAverage(14, 8, 2)); // 8
-console.log(calculateAverage(27, 43, 2, 8, 36)); // 23.2
+// console.log(calculateAverage(1, 2, 3, 4, 9.4)); // 2.5
+// console.log(calculateAverage(14, 8, 2)); // 8
+// console.log(calculateAverage(27, 43, 2, 8, 36)); // 23.2
+
+
+// ЗАДАЧА 6
+// Напишіть ф-цію greet(name) , яка при виклику буде получати імя (як приклад , "Василь"), 
+// і логінувати рядок "Привіт, <імя>".У випадку , відсутнього 
+// відсутнього значення, виводе аргумент "Привіт , гість"
+console.log(greet("Василь"));//Привіт Василь
+console.log(greet());//Привіт гість
+
+// function greet(name) {
+//     if (!name) {
+//         return `Привіт, гість`; 
+//     } 
+//     return `Привіт, ${name}`;
+// }
+
+// function greet(name) {
+//     const nameId = !name ? `Привіт, гість` : `Привіт, ${name}`;
+//     return nameId;
+// }
+
+// function greet(name = "гість") { 
+//     return `Привіт, ${name}`;
+// }
