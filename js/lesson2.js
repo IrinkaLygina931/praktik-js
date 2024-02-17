@@ -83,18 +83,17 @@
 // console.log(calculateAverage(14, 8, 2)); // 8
 // console.log(calculateAverage(27, 43, 2, 8, 36)); // 23.2
 
-
 // ЗАДАЧА 6
-// Напишіть ф-цію greet(name) , яка при виклику буде получати імя (як приклад , "Василь"), 
-// і логінувати рядок "Привіт, <імя>".У випадку , відсутнього 
+// Напишіть ф-цію greet(name) , яка при виклику буде получати імя (як приклад , "Василь"),
+// і логінувати рядок "Привіт, <імя>".У випадку , відсутнього
 // відсутнього значення, виводе аргумент "Привіт , гість"
-console.log(greet("Василь"));//Привіт Василь
-console.log(greet());//Привіт гість
+// console.log(greet("Василь"));//Привіт Василь
+// console.log(greet());//Привіт гість
 
 // function greet(name) {
 //     if (!name) {
-//         return `Привіт, гість`; 
-//     } 
+//         return `Привіт, гість`;
+//     }
 //     return `Привіт, ${name}`;
 // }
 
@@ -103,6 +102,20 @@ console.log(greet());//Привіт гість
 //     return nameId;
 // }
 
-// function greet(name = "гість") { 
+// function greet(name = "гість") {
 //     return `Привіт, ${name}`;
 // }
+// ЗАДАЧА 8
+// Напишіть ф-цію capitalize , яка буде приймати рядок і буде повертати новий рядок , де кожне слово буде з великої букви
+console.log(capitalize("the quick brown fox")); // 'The Quick Brown Fox '
+function capitalize(string) {
+  const newString = string.split(" ");
+  let twoLater = [];
+  for (const str of newString) {
+    const firstLater = str[0].toUpperCase();
+    const newString = str.slice(1);
+    const final = `${firstLater}${newString}`;
+    twoLater.push(final);
+  }
+  return twoLater.join(" ");
+}
