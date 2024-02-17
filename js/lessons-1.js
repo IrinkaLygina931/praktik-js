@@ -124,21 +124,21 @@
 // }
 
 // console.log(period)
-// ЗАДАЧА 9 
+// ЗАДАЧА 9
 // НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10
 
 // const min = 1;
 // const max = 50;
 // // for (let i = 1; i <= max; i++){
 // //     console.log(i)
-// // } 
+// // }
 // for (let i = 1; i <= max; i++){
 //     if (i %10===0){
 //         console.log(i)
 //     }
 // }
-// ЗАДАЧА 10 
-// НАПИШІТЬ ПРОГРАМУ, ЯКА БУДЕ ВИЗНАЧАТИ ДОВЖИНУ ІМЕНІ , ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!" , ЯКЩО МЕНШЕ 7 
+// ЗАДАЧА 10
+// НАПИШІТЬ ПРОГРАМУ, ЯКА БУДЕ ВИЗНАЧАТИ ДОВЖИНУ ІМЕНІ , ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!" , ЯКЩО МЕНШЕ 7
 // "Your name isn't very long"
 
 // const name = "Yana";
@@ -146,3 +146,5 @@
 //     console.log("Wow, you  have a REALLY long name!")
 // }
 // else {console.log("Your name isn't very long")}
+
+
