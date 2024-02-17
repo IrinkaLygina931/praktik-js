@@ -51,3 +51,15 @@
 //   }
 //   return smallNumber;
 // }
+
+// ЗАДАЧА 4
+//  Провірте , чи являється рядок полідромом
+
+// const str = "ротатор";//true
+// const newString = "Hello";//false
+
+// const strReversed = str.split('').reverse().join('');
+// console.log(strReversed === str);
+
+// const newStringReverse = newString.split('').reverse().join('');
+// console.log(newStringReverse === newString);
