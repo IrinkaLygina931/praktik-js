@@ -107,15 +107,64 @@
 // }
 // ЗАДАЧА 8
 // Напишіть ф-цію capitalize , яка буде приймати рядок і буде повертати новий рядок , де кожне слово буде з великої букви
-console.log(capitalize("the quick brown fox")); // 'The Quick Brown Fox '
-function capitalize(string) {
-  const newString = string.split(" ");
-  let twoLater = [];
-  for (const str of newString) {
-    const firstLater = str[0].toUpperCase();
-    const newString = str.slice(1);
-    const final = `${firstLater}${newString}`;
-    twoLater.push(final);
-  }
-  return twoLater.join(" ");
-}
+// console.log(capitalize("the quick brown fox")); // 'The Quick Brown Fox '
+// function capitalize(string) {
+//   const newString = string.split(" ");
+//   let twoLater = [];
+//   for (const str of newString) {
+//     const firstLater = str[0].toUpperCase();
+//     const newString = str.slice(1);
+//     const final = `${firstLater}${newString}`;
+//     twoLater.push(final);
+//   }
+//   return twoLater.join(" ");
+// }
+
+// ЗАДАЧА 9
+// Напишіть функцію для роботи з колекцією навчаючих курсів courses:
+
+// addCourse(name) - добавляє курс у кінець колекції
+// removeCourse(name) - видаляє курс із колекції
+// updateCourse(oldName, newName)- змінює імя на нове
+
+
+
+
+// updateCourse("Express", "NestJS"); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'NestJS']
+
+
+// function addCourse(name) {
+//     if (courses.includes(name)) {
+//         console.log('У вас уже є такий курс');
+//         return
+//     }
+//         courses.push(name)
+    
+// }
+// addCourse("Express"); // ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL', 'Express']
+// addCourse("CSS"); // 'У вас уже є такий курс'
+
+// function removeCourse(name) {
+//     if (courses.indexOf(name) === -1) {
+//         console.log('Курс з таким іменем не найдено');
+//         return
+//     }
+//     console.log(courses.splice(courses.indexOf(name), 1));
+//     console.log(courses);
+// }
+
+
+// removeCourse("React"); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'Express']
+// removeCourse("Vue"); // 'Курс з таким іменем не найдено'
+
+// const courses = ["HTML", "CSS", "JavaScript", "React", "PostgreSQL","Express"];
+
+// function updateCourse(oldName, newName) {
+//     if (courses.indexOf(oldName)) {
+//         console.log(courses.splice(courses.indexOf(oldName), 1, newName));
+        
+//     }
+//     console.log(courses);
+// }
+
+// updateCourse("PostgreSQL", "JavaScript"); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'NestJS']
