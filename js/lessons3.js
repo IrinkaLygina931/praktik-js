@@ -130,8 +130,21 @@ const scientists = [
 
 // console.log(wasBorn);
 
-const middleYear = scientists.reduce(
-  (arr, number) => arr + (number.dead - number.born),
-  0
-);
-console.log(middleYear / scientists.length);
+// const middleYear = scientists.reduce(
+//   (arr, number) => arr + (number.dead - number.born),
+//   0
+// );
+// console.log(middleYear / scientists.length);
+
+// 3) відсортувати по алфавіту;
+// 4)відсортувати по кількості прожитих років;
+
+// const sorted = scientists.toSorted((a, b) => (a.name > b.name ? -1 : 1));
+// console.log(sorted);
+// const sum = scientists.toSorted((a, b) => a.name.localeCompare(b.name));
+// console.log(sum);
+
+// const sorted = scientists.toSorted(
+//   (a, b) => a.dead - a.born - (b.dead - b.born)
+// );
+// console.log(sorted);
