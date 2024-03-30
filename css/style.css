@@ -39,7 +39,7 @@ input {
   color: #fff;
 } */
 
-.checkbox-thumb {
+/* .checkbox-thumb {
   position: relative;
   width: 50px;
   height: 16px;
@@ -87,4 +87,8 @@ body.dark {
 
 body.dark .text {
   color:white;
+} */
+
+body {
+  height: 1000px;
 }
