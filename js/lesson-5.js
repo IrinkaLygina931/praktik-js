@@ -27,29 +27,37 @@
 // "Стоп", цикл зупиняється, і кнопка "Старт" стає доступною для подальших кліків.Для реалізації використовується HTML для
 //  створення сторінки з кнопками та JavaScript код для взаємодії з цими елементами та виконання зазначених функцій.
 
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, 0)}`;
-}
+// function getRandomHexColor() {
+//   return `#${Math.floor(Math.random() * 16777215)
+//     .toString(16)
+//     .padStart(6, 0)}`;
+// }
 
-const startBtn = document.querySelector("button[data-start]");
-const stopBtn = document.querySelector("button[data-stop]");
+// const startBtn = document.querySelector("button[data-start]");
+// const stopBtn = document.querySelector("button[data-stop]");
 
-let timerId = null;
+// let timerId = null;
 
-startBtn.addEventListener("click", handleClick);
+// startBtn.addEventListener("click", handleClick);
 
-function handleClick() {
-  timerId = setInterval(() => {
-    document.body.style.backgroundColor = getRandomHexColor();
-    startBtn.disabled = true;
-  }, 1000);
-}
+// function handleClick() {
+//   timerId = setInterval(() => {
+//     document.body.style.backgroundColor = getRandomHexColor();
+//     startBtn.disabled = true;
+//   }, 1000);
+// }
 
-stopBtn.addEventListener("click", stopInterval);
+// stopBtn.addEventListener("click", stopInterval);
 
-function stopInterval() {
-  clearInterval(timerId);
-  startBtn.disabled = false;
-}
+// function stopInterval() {
+//   clearInterval(timerId);
+//   startBtn.disabled = false;
+// }
+
+// ЗАДАЧА 3
+// СТВОРИ СПИСОК ЗАМІТОК НА ДЕНЬ:
+// 1)ПОЛУЧИТИ ДОСТУП ДО ЕЛЕМЕНТІВ ФОРМИ, ПРИ НАТИСКАННЯ НА КНОПОЧКУ ADD
+// 2)НА ОСНОВІ ДАНИХ ЯКІ МИ ВЗЯЛИ З ФОРМИ ВІДМАЛЮВАТИ ЕЛЕМЕНТИ СПИСКУ НА ЕКРАН ЗА ДОПОМОГОЮ КРЕЙТЕЛЕМЕНТ
+// 3)ДОДАЙ ЦЕЙ СПИСОК ДО ЛОКАЛ СТОРЕДЖ
+// 4)ДОДАЙ ДОДАТКОВИЙ ФУНКЦІОНАЛ, ЩОБ ПРИ ОНОВЛЕННІ СТОРІНКИ СПИСОК НЕ ВИДАЛЯВСЯ  
+// 5)СТВОРЮЄМО КНОПОЧКУ, ПРИ ЯКОМУ БУДЕ ОЧИЩАВСЯ ЛОКАЛ СТОРЕДЖ
